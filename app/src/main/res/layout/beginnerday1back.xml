@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="410dp"
+            android:background="@drawable/deadlift"/>
+        />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+        <ScrollView
+            android:layout_width="410dp"
+            android:layout_height="150dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ghew"
+                android:text="@string/deadlift"
+                />
+        </ScrollView>
+
+
+
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            />
+
+
+
+
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="410dp"
+            android:background="@drawable/pullup"/>
+        <ScrollView
+            android:layout_width="410dp"
+            android:layout_height="150dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ghew"
+                android:text="@string/pullup"
+                />
+        </ScrollView>
+
+
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            />
+
+
+
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="410dp"
+            android:background="@drawable/bentoverrow"/>
+        <ScrollView
+            android:layout_width="410dp"
+            android:layout_height="150dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ghew"
+                android:text="@string/bentoverrow"
+                />
+        </ScrollView>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            />
+    </LinearLayout>
+</ScrollView>

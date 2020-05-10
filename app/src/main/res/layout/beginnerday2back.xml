@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="410dp"
+            android:background="@drawable/pullup2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/ghew"
+            android:text="Pull Up\n3 Sets of pull up.\nHold for 10 seconds after pulled"
+            android:layout_centerHorizontal="true"
+            />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            />
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="410dp"
+            android:background="@drawable/bentoverrow"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bent Over Row\n3 Sets of bent over row \nEach set requires 10 Bent Revs"
+            android:textColor="@color/ghew"
+            />
+
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            />
+
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="410dp"
+            android:background="@drawable/backtbar"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="T-bar\n3 Sets of T-Bar\nEach set requires 10 Revs"
+            android:textColor="@color/ghew"
+            />
+
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            />
+    </LinearLayout>
+</ScrollView>

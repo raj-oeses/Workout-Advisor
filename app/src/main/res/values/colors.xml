@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="ghew">#CCCCCC</color>
+    <color name="MaximunGreen">#669933</color>
+    <color name="Alabaster">#C8B7A7</color>
+    <color name="white">#96665C</color>
+    <color name="DarkOliveGreen">#556B2F</color>
+    <color name="DimGray">#cb804d</color>
+
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/dateandtype2"
+    >
+    <Spinner
+        android:id="@+id/type"
+        android:entries="@array/select"
+        android:layout_width="380dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/white"
+        tools:ignore="MissingConstraints"
+        />
+
+    <Button
+        android:id="@+id/day1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/day1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:onClick="Day1"
+        tools:ignore="MissingConstraints,OnClick" />
+
+    <Button
+        android:id="@+id/day2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/day1"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/day2"
+        android:onClick="Day2"
+        tools:ignore="MissingConstraints,OnClick" />
+
+   <!-- <Button
+        android:id="@+id/day3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/day2"
+        android:layout_marginTop="50dp"
+        android:text="Day Three"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="347dp"
+        android:onClick="Day3"
+        tools:ignore="MissingConstraints,OnClick" />-->
+
+</RelativeLayout>

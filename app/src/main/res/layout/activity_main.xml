@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/body21"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:text="Hit Hard"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textFontWeight="@android:integer/config_mediumAnimTime"
+        android:textSize="40dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="60dp"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/chest"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:text="Chest"
+            android:onClick="Chest"
+            android:layout_marginRight="5dp"
+            android:background="@color/DimGray"
+            tools:ignore="OnClick"
+            />
+        <Button
+            android:id="@+id/back"
+            android:layout_below="@+id/chest"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="50dp"
+            android:onClick="Back"
+            android:text="Back"
+            android:layout_marginRight="5dp"
+            android:background="@color/DimGray"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/shoulder"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/legs"
+            android:layout_toRightOf="@+id/back"
+            android:layout_marginTop="50dp"
+            android:text="Shoulder"
+            android:onClick="Biceps"
+            android:layout_marginLeft="5dp"
+            android:background="@color/DimGray"
+            tools:ignore="OnClick"
+            />
+
+        <Button
+            android:id="@+id/legs"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:onClick="Legs"
+            android:layout_toRightOf="@+id/chest"
+            android:layout_marginLeft="5dp"
+            android:text="Legs"
+            android:background="@color/DimGray"
+            tools:ignore="OnClick"
+            />
+
+        <!--<Button
+
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:id="@+id/biceps"
+            android:onClick="Biceps"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/legs"
+            android:layout_toRightOf="@+id/shoulder"
+            android:layout_marginLeft="5dp"
+            android:text="Biceps"
+            android:background="@color/DimGray"
+            tools:ignore="OnClick"
+            />
+
+        <Button
+
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:id="@+id/triceps"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/biceps"
+            android:layout_toRightOf="@+id/shoulder"
+            android:layout_marginLeft="5dp"
+            android:text="Triceps"
+            android:background="@color/DimGray"
+            tools:ignore="OnClick"
+            />-->
+    </RelativeLayout>
+
+</RelativeLayout>

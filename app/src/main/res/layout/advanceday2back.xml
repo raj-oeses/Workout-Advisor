@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="410dp"
+            android:background="@drawable/invertedrow1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Inverted Row\n3 Sets of row\nEach set requires 15 pull ups"
+            android:textColor="@color/ghew" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="410dp"
+            android:background="@drawable/latpulldown1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lat Pull Down\n3 Sets of Pull Down\nRelease very slowly"
+            android:textColor="@color/ghew" />
+
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+    </LinearLayout>
+</ScrollView>

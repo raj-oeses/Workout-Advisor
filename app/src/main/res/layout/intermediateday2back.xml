@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="410dp"
+            android:background="@drawable/deadlift1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/ghew"
+            android:text="Dead Lift\n3 Sets of pull up.\nHold for 15 seconds after pulled"
+            android:layout_centerHorizontal="true"
+            />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            />
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="410dp"
+            android:background="@drawable/bentforwardcablecross"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bent Forward Cable Cross\n3 Sets of Cable Cross.\nHold for 5 seconds after pulled"
+            android:textColor="@color/ghew"
+            />
+
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            />
+
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="410dp"
+            android:background="@drawable/singlearmdumbellrow1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Single Arm Dumbell Row\n3 Sets of Single Arm Dumbell Row\nEach set requires 10 Revs"
+            android:textColor="@color/ghew"
+            />
+
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            />
+    </LinearLayout>
+</ScrollView>
